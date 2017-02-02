@@ -21,7 +21,7 @@ class classes_htmlRouter
     );
 
     /**
-     * Функция формирует ответ в формате json
+     * Функция формирует ответ в формате HTML
      * @param $requestData данные из запроса
      */
     public function response($requestData = array())
@@ -39,7 +39,7 @@ class classes_htmlRouter
     }
 
     /**
-     * Функция выводи json и заканчивает выполнение скрипта
+     * Функция выводит HTML страницу и заканчивает выполнение скрипта
      * @param $responseArray
      */
     public function responseHtml($data)
